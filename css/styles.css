@@ -62,7 +62,6 @@ a  {text-decoration: none;}
     display: flex;
     gap: 40px;
 }
-.list-nav-one 
 
 .list-nav-one: :last-child: {
     margin-right: 0;
@@ -75,12 +74,23 @@ a  {text-decoration: none;}
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-        
 }
+
 .list-nav-studio:hover,
 .list-nav-studio:focus {
     color: #404bbf;
     }
+
+.list-nav-studio::after {
+    display: block;
+    width: 48px;
+    height: 4px;
+    border-radius: 2px;
+    background: #404BBF;
+    position: absolute;
+    content: ();
+
+}
 
 .logo-part-one {
     color: #4D5AE5;
@@ -144,14 +154,12 @@ a  {text-decoration: none;}
 .list-nav-add-two:hover  {
 color: #404bbf;
 }
-
 .list-nav-add-two:focus {
 color: #404bbf; 
 }
-
-
 .one-section {
-background-image: url(/images/people.jpg);
+background-color: #2e2f42;    
+background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70) ), url(/images/people.jpg);
 background-position: center;
 background-size: cover;
 padding: 188px 0;}
@@ -161,7 +169,6 @@ width: 1158px;
 margin: 0 auto;
 padding: 0 15px;
 }
-
 .one-section-name {
 color: #ffffff;
 font-size: 56px;
@@ -174,10 +181,7 @@ margin-bottom: 48px;
 text-align: center;
 font-weight: 700;
 text-transform: capitalize;
-
-
 }
-
 .button-one-section {
 background-color: #4D5AE5;
 font-family: Roboto, sans-serif;
@@ -206,11 +210,7 @@ border: none;
 
 .two-section {
 padding: 120px 0;
-
-
 }
-
-
 
 .visually-hidden {
     position: absolute;
