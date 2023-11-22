@@ -61,6 +61,7 @@ a  {text-decoration: none;}
     letter-spacing: 0.32em;
     display: flex;
     gap: 40px;
+    position: relative;
 }
 
 .list-nav-one: :last-child: {
@@ -82,12 +83,16 @@ a  {text-decoration: none;}
     }
 
 .list-nav-studio::after {
+    display: block;
     width: 48px;
     height: 4px;
     border-radius: 2px;
     background: #404BBF;
     position: absolute;
-    content: ();
+    content: "";
+    left: 0;
+    bottom: -1px;
+    
 
 }
 
