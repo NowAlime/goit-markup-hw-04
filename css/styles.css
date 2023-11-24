@@ -72,6 +72,10 @@ a {text-decoration: none;}
  
     }
 
+    .list-nav-blue {
+        position:relative;
+    }
+
 .list-nav-studio:hover,
 .list-nav-studio:focus {
     color: #404bbf; }
@@ -89,7 +93,6 @@ a {text-decoration: none;}
 
 .logo-part-one {
     color: #4D5AE5;
-    position: relative;
     font-family: Raleway, sans-serif;
     font-size: 18px;
     font-weight: 700;
@@ -148,7 +151,9 @@ background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)
 background-position: center;
 background-size: cover;
 padding: 188px 0;
+max-width: 1440px;
 background-repeat: no-repeat;
+margin: 0 auto;
 }
 
 .container: {
