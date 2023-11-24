@@ -89,6 +89,7 @@ a {text-decoration: none;}
 
 .logo-part-one {
     color: #4D5AE5;
+    position: relative;
     font-family: Raleway, sans-serif;
     font-size: 18px;
     font-weight: 700;
@@ -157,6 +158,7 @@ padding: 0 15px;
 }
 
 .one-section-name {
+max-width: 1440px;
 color: #ffffff;
 font-size: 56px;
 line-height: 1.07;
