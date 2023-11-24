@@ -147,7 +147,7 @@ color: #404bbf;
 }
 .one-section {
 background-color: #2e2f42;    
-background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70) ), url(/images/people.jpg);
+background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70) ), url(../images/people.jpg);
 background-position: center;
 background-size: cover;
 padding: 188px 0;
@@ -439,6 +439,12 @@ transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .footer-name {
     background-color:#2e2f42;
     padding: 100px 0;
+
+
+}
+
+.logo-footer-andp {
+    margin-right: 120px;
 }
 .footer-logo-one { 
     color: #4D5AE5;
@@ -476,6 +482,8 @@ transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .list-links {
     display: flex;
     gap: 16px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 .footer-container {
@@ -489,10 +497,9 @@ transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
     display: block;
 }
 
-.links-footer {
 
-}
-.links-footer:hover {
+.links-footer:hover
+.links-footer:focus {
 background-color: #31d0aa;
 }
 
